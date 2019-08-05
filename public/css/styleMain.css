@@ -1,0 +1,84 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url(../img/11.jpg);
+  background-size: cover;
+  /*background-position:center;*/
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.loginBox {
+  width: 320px;
+  height: 420px;
+  background: #000;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.photoLogin {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  padding: 0 0 20px;
+}
+
+.loginBox p {
+  margin: 0px;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.loginBox button {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  height: 40px;
+  color: #fff;
+  background-color: #e51a24;
+  border-radius: 20px;
+}
+
+.loginBox button:hover {
+  background-color: #d4b8b87d;
+  color: #000;
+  cursor: pointer;
+}
+.loginBox a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.loginBox a:hover {
+  color: #ffc107;
+}

@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contener {
+  display: flex;
+  text-align: left;
+  justify-content: normal;
+}
+
+.aside {
+  width: 20%;
+  background-color: #333;
+  color: blanchedalmond;
+  padding: 10px;
+  margin-right: 15px;
+  height: 100vh;
+}
+
+.main {
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  padding: 10px;
+  border: 1px solid #e8e0e0;
+  display: block;
+}
+
+.input-send-message {
+  padding: 5px;
+  font-size: 25px;
+  display: inline-block;
+  border: 1px solid #e0d5d5;
+  border-radius: 5px;
+  color: #000;
+  width: 64vw;
+  height: 64px;
+  margin-left: -8rem;
+}
+
+#message-form {
+  margin: auto auto;
+  align-items: left;
+  text-align: left;
+  display: inline-block;
+}
+
+.sendMsg {
+  border: 1px solid #c5baba;
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  color: #988e8e;
+  width: 6vh;
+  height: 50px;
+  display: inline-block;
+  margin: 5px;
+}
+
+#send-location {
+  padding: 5px;
+  margin: 5px;
+  font-size: 15px;
+  color: #988e8e;
+  border: 1px solid #c5baba;
+  border-radius: 5px;
+  display: inline-block;
+  position: fixed;
+  height: 50px;
+}
+.messages {
+  font-size: 20px;
+  text-align: left;
+  height: 83vh;
+  margin-left: 3rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow-y: scroll;
+}
+.information-user {
+  margin-bottom: 5px;
+}
+.user__name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 15px;
+}
+.user__time {
+  font-size: 15px;
+  margin-left: 5px;
+  color: #887d7d;
+}
+.user_message {
+  margin-top: 2px;
+  margin-left: 7px;
+  color: #100f0f;
+}
+
+.link__messages {
+  color: blue;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.between {
+  margin-bottom: 20px;
+}
+
+.title-app {
+  margin: 40px;
+}
+
+.room-title {
+  margin: 10px;
+  font-size: 19px;
+}
+
+.room-users {
+  margin-top: 30px;
+}
+
+.users {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.messages {
+  display: block;
+}
+
+@media screen and (max-width: 430px) {
+  .aside {
+    display: none;
+  }
+  .input-send-message {
+    padding: 3px;
+    font-size: 15px;
+    width: 60vw;
+    height: 50px;
+    margin-left: -3rem;
+  }
+
+  #message-form {
+    align-items: left;
+    text-align: left;
+    display: inline-block;
+  }
+  #send-location {
+    padding: 2px;
+    margin: 8px;
+    font-size: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 25px;
+    margin-top: 15px;
+  }
+  .sendMsg {
+    font-weight: bolder;
+    font-size: 0.7rem;
+    color: #988e8e;
+    width: 6vh;
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+  }
+  .messages {
+    border: 1px solid #d4c6c6;
+    padding: 10px;
+    margin: -5px;
+    height: 90vh;
+    margin-bottom: 10px;
+  }
+}
